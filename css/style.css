@@ -11,75 +11,74 @@ a{
     color: inherit;
 }
 
+.header{
+    position: relative;
+    background-image: url(../img/Layer1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.header::before{
+    content: url(../img/Layer2.png);
+    position: absolute;
+    top: -50px;
+    left: -3%;
+    z-index: -1;
+    overflow: hidden;
+    width: 400px;
+    height: 1100px;
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.header__wrap,
+.navigation__wrap,
 .ready__wrap,
 .service__wrap{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__wrap{
+.navigation__wrap{
     min-height: 60px;
 }
 
-.header__logo{
+.navigation__logo{
     font-family: font92925;
     font-size: 30px;
     color: #41aed6;
 }
 
-.header__navbar ul{
+.navigation__navbar ul{
     display: flex;
     color: #1f1f1f;
 }
 
-.header__navbar li {
+.navigation__navbar li {
     padding-left: 40px;
 }
 
-.header__navbar a{
+.navigation__navbar a{
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     opacity: 0.6;
 }
 
-.header__navbar a:hover{
+.navigation__navbar a:hover{
     opacity: 1;
 }
 
-.ready::before{
-    content: url(../img/Layer2.png);
-    position: absolute;
-    top: -50px;
-    left: -3%;
-    z-index: -2;
-    overflow: hidden;
-    width: 400px;
-    height: 1100px;
-}
-
-.ready::after{
-    content: url(../img/Layer1.png);
-    position: absolute;
-    top: -7%;
-    right: 0;
-    z-index: -2;
-    overflow: hidden;
-    width: 950px;
-    height: 700px;
+.ready{
+    padding-bottom: 200px;
 }
 
 .ready__wrap{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .ready__text{
@@ -111,24 +110,13 @@ a{
     width: 170px;
     height: 50px;
     background-color: #41aed6;
+    border-radius: 5px;
 }
 
 .ready__btn a{
     font-size: 16px;
     font-weight: 400px;
     cursor: pointer;
-}
-
-.ready__img{
-    width: 500px;
-    height: auto;
-    z-index: -1;
-    position: absolute;
-    right: 20%;
-}
-
-.service{
-    margin-top: 200px;
 }
 
 .service__title{
