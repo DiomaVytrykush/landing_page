@@ -25,7 +25,7 @@ function showSlides(n) {
 
 
 var wrap = document.getElementsByClassName("buying__wrap");
-var boxes = wrap.getElementsByClassName("buying__box");
+var boxes = document.getElementsByClassName("buying__box");
 
 for (var j = 0; j < boxes.length; j++) {
   boxes[j].addEventListener("click", function() {

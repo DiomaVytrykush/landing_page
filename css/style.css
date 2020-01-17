@@ -403,6 +403,72 @@ a{
     color: #fff;
 }
 
+.footer__wrap{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__box{
+    max-width: 270px;
+    padding-right: 100px;
+}
+
+.footer__title{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #41aed6;
+    margin-bottom: 20px;
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #4c4c4c;
+    position: relative;
+}
+
+.footer__links a:hover{
+    text-decoration: underline;
+}
+
+.footer__links .mail , .phone{
+    padding-left: 30px;
+} 
+
+.footer__links .mail::before{
+    content: url(../img/mail.svg) ;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.footer__links .phone::before{
+    content: url(../img/phone.svg) ;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+.footer__social{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copy{
+    margin: 160px 0 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #4c4c4c;
+    text-align: center;
+}
+
 
 
 
