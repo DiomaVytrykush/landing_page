@@ -1,3 +1,11 @@
+$(function(){
+
+  $('.navigation__btn').on('click', function(){
+    $('.navigation__navbar li').slideToggle();
+  });
+
+});
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

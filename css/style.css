@@ -53,12 +53,12 @@ a{
     color: #41aed6;
 }
 
-.navigation__navbar ul{
+.navigation__navbar{
     display: flex;
     color: #1f1f1f;
 }
 
-.navigation__navbar li {
+.navigation__navbar-item{
     padding-left: 40px;
 }
 
@@ -71,6 +71,10 @@ a{
 
 .navigation__navbar a:hover{
     opacity: 1;
+}
+
+.navigation__btn{
+    display: none;
 }
 
 .ready{

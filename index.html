@@ -9,30 +9,32 @@
     <link href="https://www.fontify.me/wf/6f8357fdd9a98893719af7761e340084" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Landing Page</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="section__navigation">
+        <section class="navigation">
             <div class="container">
                 <div class="navigation__wrap">
                     <div class="navigation__logo">
                         <a href="#">Shepa</a>
                     </div>
-                    <div class="navigation__navbar">
-                        <ul>
-                            <li><a href="#ready">Features</a></li>
-                            <li><a href="#service">Services</a></li>
-                            <li><a href="#reviews">Testimonials</a></li>
-                            <li><a href="#buying">Pricing</a></li>
-                            <li><a href="#footer">contact</a></li>
-                        </ul>
+                    <ul class="navigation__navbar">
+                        <li class="navigation__navbar-item"><a href="#ready">Features</a></li>
+                        <li class="navigation__navbar-item"><a href="#service">Services</a></li>
+                        <li class="navigation__navbar-item"><a href="#reviews">Testimonials</a></li>
+                        <li class="navigation__navbar-item"><a href="#buying">Pricing</a></li>
+                        <li class="navigation__navbar-item"><a href="#footer">contact</a></li>
+                    </ul>
+                    <div class="navigation__btn">
+                        <span></span>
                     </div>
                 </div>
             </div>
-        </div>
-        <section class="ready" id="ready">
+        </section>
+        <!-- <section class="ready" id="ready">
             <div class="container">
                 <div class="ready__wrap">
                     <div class="ready__text">
@@ -315,10 +317,10 @@
                 </h4>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
-
-    <script src="main.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>
